@@ -6,9 +6,16 @@
 * dialog
 
 ## 使用方法
-```
+```zsh
 sudo ./fun.sh
 ```
+
+若不想每次执行 sudo 命令，可以将用户加入 video 组，命令如下：
+```zsh
+sudo usermod -G video yourusername
+```
+之后可直接执行`./fun.sh`
+
 
 | 按键 | 作用     |
 |------|----------|
